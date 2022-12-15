@@ -162,7 +162,7 @@ nav ul {
   z-index: 10;
   opacity: 0;
   pointer-events: none;
-  transition-duration: 0.2s 0.3s 0.3s 0.3s 0.08s;
+  transition-duration: 0.2s, 0.3s, 0.3s, 0.3s, 0.08s;
   transition-property: opacity, width, height, background-color, transform;
 }
 
@@ -175,8 +175,8 @@ nav ul {
   background-color: rgba(186, 196, 191, 0.5);
   z-index: 10;
   opacity: 0;
+  pointer-events: none;
   transition: 0.2s opacity;
-  pointer-events: initial;
 }
 
 .cursor-circle.biggerCursor {

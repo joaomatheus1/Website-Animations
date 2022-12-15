@@ -42,7 +42,7 @@ elements.forEach(el => {
     el.addEventListener("mouseover", () =>{
         cursor_circle.classList.add("biggerCursor");
     });
-    /* el.addEventListener("mouseout", () =>{
+    el.addEventListener("mouseout", () =>{
         cursor_circle.classList.remove("biggerCursor");
-    }); */
-})
+    });
+});
