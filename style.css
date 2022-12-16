@@ -84,6 +84,7 @@ nav ul {
   background-size: 150%;
   background-position: 50% 58%;
   background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 .big-name {
@@ -95,6 +96,11 @@ nav ul {
   text-align: center;
   line-height: 1;
   width: fit-content;
+  pointer-events: none;
+}
+
+.big-name span {
+  pointer-events: auto;
 }
 
 .bottom-section {
@@ -189,7 +195,8 @@ nav ul {
   background-color: rgba(105,105,105,0.4);
 }
 
-/*
-  Dark Green Color : #1d2927
-  Orange Color : #f3c892
-*/
+@media (max-width: 576px) {
+  .big-name {
+    font-size: 5rem;
+  }
+}
