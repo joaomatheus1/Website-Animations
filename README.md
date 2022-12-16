@@ -1,6 +1,7 @@
 # Animated web page
 
 It is a simple web page with satisfactory animations. It was a project I did in order to improve JS and CSS.
+
 ![image](https://user-images.githubusercontent.com/72817491/208016610-e84c5fcf-3da5-4836-bb2a-31ff8d4f8517.png)
 
 On smaller screens:
